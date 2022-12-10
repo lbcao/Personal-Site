@@ -2,13 +2,18 @@ body {
     font-family: "Arial", sans-serif;
 }
 
-#name {
+/*avoid scrolling bar influencing the body width*/
+html {
+    overflow-y: scroll;
+}
+
+.name {
     color: #551a8b;
     font-size: 30px;
     font-family: "Lato", "Arial", sans-serif;
 }
 
-#email {
+.email {
     color: black;
 }
 
@@ -25,12 +30,14 @@ hr {
 }
 
 div.sections {
-    width: 100%;
+    width: 1200px;
     margin: 10px auto;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
     font-family: "Arial", sans-serif;
+    /*margin-left: 10%;*/
+
 
 }
 
@@ -69,7 +76,7 @@ th.eduction_cell {
 }
 
 
-#google_scholar {
+.google_scholar {
     text-indent: 25px;
     font-weight: bold;
 }
